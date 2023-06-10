@@ -84,13 +84,13 @@ proc drawInfo*() =
   const  # icons before cotegores
     userIcon: string   = " "  # recomended: " " or "|>"
     hnameIcon: string  = " "  # recomended: " " or "|>"
-    distroIcon: string = " "  # recomended: " " or "|>"
-    kernelIcon: string = " "  # recomended: " " or "|>"
+    distroIcon: string = "󰻀 "  # recomended: "󰻀 " or "|>"
+    kernelIcon: string = "󰌢 "  # recomended: "󰌢 " or "|>"
     uptimeIcon: string = " "  # recomended: " " or "|>"
     shellIcon: string  = " "  # recomended: " " or "|>"
-    pkgsIcon: string   = " "  # recomended: " " or "|>"
-    ramIcon: string    = " "  # recomended: " " or "|>"
-    colorsIcon: string = " "  # recomended: " " or "->"
+    pkgsIcon: string   = "󰏖 "  # recomended: "󰏖 " or "|>"
+    ramIcon: string    = "󰍛 "  # recomended: "󰍛 " or "|>"
+    colorsIcon: string = "󰏘 "  # recomended: "󰏘 " or "->"
     # please insert any char after the icon
     # to avoid the bug with cropping the edge of the icon
 
@@ -215,3 +215,4 @@ nitch
 - [paleofetch](https://github.com/ss7m/paleofetch)
 - [rxfetch](https://github.com/Mangeshrex/rxfetch)
 - [nerdfetch](https://github.com/ThatOneCalculator/NerdFetch)
+
